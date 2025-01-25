@@ -8,14 +8,16 @@ import { Sun, Moon, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   NavigationMenu,
-  NavigationMenuContent,
+  // NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
+  // NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
+import Logo from "@/components/logo";
 
 const navItems = [
+  { title: "Home", href: "/#" },
   { title: "Features", href: "#features" },
   { title: "Pricing", href: "#pricing" },
   { title: "Contact", href: "#contact" },
@@ -43,7 +45,8 @@ export function Header() {
           href="/"
           className="font-normal flex space-x-2 items-center text-sm mr-4 text-black px-2 py-1 relative z-20"
         >
-          <Image src="/images/logo.png" alt="logo" width={30} height={30} />
+          {/* <Image src="/images/logo.png" alt="logo" width={30} height={30} /> */}
+          <Logo />
           <span className="font-medium text-black dark:text-white">
             ActiveMonitor
           </span>
