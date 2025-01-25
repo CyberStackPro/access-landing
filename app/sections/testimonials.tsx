@@ -67,7 +67,7 @@ const TestimonialCard = ({
 
 export default function Testimonials() {
   return (
-    <section className="py-24 bg-background overflow-hidden">
+    <section id="testimonial" className="py-24 bg-background overflow-hidden">
       <div className="container px-4 mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

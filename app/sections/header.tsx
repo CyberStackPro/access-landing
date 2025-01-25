@@ -19,7 +19,9 @@ import Logo from "@/components/logo";
 const navItems = [
   { title: "Home", href: "/#" },
   { title: "Features", href: "#features" },
-  { title: "Pricing", href: "#pricing" },
+  { title: "About", href: "#about" },
+  { title: "Testimonial", href: "#testimonial" },
+  // { title: "Pricing", href: "#pricing" },
   { title: "Contact", href: "#contact" },
 ];
 
@@ -47,7 +49,7 @@ export function Header() {
         >
           {/* <Image src="/images/logo.png" alt="logo" width={30} height={30} /> */}
           <Logo />
-          <span className="font-medium text-black dark:text-white">
+          <span className="font-bold text-black dark:text-white">
             ActiveMonitor
           </span>
         </Link>

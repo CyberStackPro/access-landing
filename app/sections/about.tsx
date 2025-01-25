@@ -35,7 +35,7 @@ export default function About() {
   ];
 
   return (
-    <section className="py-24 bg-background">
+    <section id="about" className="py-24 bg-background">
       <div className="container px-4 mx-auto max-w-7xl">
         <div className="grid gap-12 lg:grid-cols-2">
           <motion.div
