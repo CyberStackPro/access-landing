@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import { useTheme } from "next-themes";
 import { Sun, Moon, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -50,7 +50,7 @@ export function Header() {
           {/* <Image src="/images/logo.png" alt="logo" width={30} height={30} /> */}
           <Logo />
           <span className="font-bold text-black dark:text-white">
-            ActiveMonitor
+            Nexoro Pro
           </span>
         </Link>
         <NavigationMenu>
@@ -102,9 +102,9 @@ export function Header() {
             href="/"
             className="font-normal flex space-x-2 items-center text-sm mr-4 text-black px-2 py-1 relative z-20"
           >
-            <Image src="/images/logo.png" alt="logo" width={30} height={30} />
-            <span className="font-medium text-black dark:text-white">
-              ActiveMonitor
+            <Logo />
+            <span className="font-bold text-black dark:text-white">
+              Nexoro Pro
             </span>
           </Link>
           <Menu className="text-black dark:text-white" />
